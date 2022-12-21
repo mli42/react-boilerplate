@@ -6,7 +6,7 @@ import eslint from 'vite-plugin-eslint';
 export default defineConfig({
 	plugins: [eslint(), react()],
 	resolve: {
-		alias: [{ find: '~/', replacement: '/' }],
+		alias: [{ find: '~/', replacement: '/src/' }],
 	},
 	server: {
 		port: 3000,
